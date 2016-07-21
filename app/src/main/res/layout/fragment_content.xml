@@ -3,12 +3,35 @@
              android:layout_width="match_parent"
              android:layout_height="match_parent">
 
-    <TextView
+    <ru.yandex.yamblz.ui.views.MyCustomLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/content"
-        android:textSize="42sp"
-        android:gravity="center"
-        />
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView1"/>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="TextView2"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView3"/>
+
+        <TextView
+            android:text="TextView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:src="@android:drawable/ic_input_get"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </ru.yandex.yamblz.ui.views.MyCustomLayout>
 
 </FrameLayout>
